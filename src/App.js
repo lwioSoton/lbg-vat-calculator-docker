@@ -35,8 +35,8 @@ function App() {
 
   return (
     <div className='header field'>
-      <h1>"OSCAR IP"</h1>
-      VAT CALCULATOR
+      <h1>OSCAR IP</h1>
+      OSCAR IP
       <div className='colour-border'>
         <VatRateField customstyle="field" vatRateChanged={handleVatRateChanged} value={vatRate} updatePrices={updatePrices} />
         <PriceEntryField customstyle="field" label="Price excl VAT: " priceChanged={handleNetPriceChange} price={netPrice === 0.0 ? "" : netPrice} />
